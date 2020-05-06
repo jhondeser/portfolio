@@ -1,0 +1,53 @@
+body{
+    background-color: darkviolet;
+}
+.header_menu_desplegable {
+    background-color: darkviolet;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    height: 60px;
+}
+.obMenu{
+    width: 60px;
+    height: 20px;
+    padding: 16px 10px;
+    margin: 0px 10px;
+        
+}
+.obMenu ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+    text-align: right;
+    padding: 0px 10px;
+    margin: 0px 0px 0px -45px;
+}
+.obMenu:hover ul, ul:hover{
+    display: block;
+    
+}
+.obMenu li{
+    margin: 15px 0px;
+}
+.obMenu li a:hover {
+    text-decoration: underline;
+}
+.obMenu:hover{
+    transform: scale(1.2);
+    background-color: darkmagenta;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #050505;
+    opacity: 1;
+}
+

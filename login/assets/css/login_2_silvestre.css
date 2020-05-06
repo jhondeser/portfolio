@@ -1,0 +1,75 @@
+
+body{
+    font: arial;
+}
+.container__login{
+    display: flex;
+}
+.container__login--presentacion{
+    height: 420px;
+    width: 680px;
+    text-align: center;
+    padding: 182px 80px 0px 80px;
+    background-image: url("../imagenes/Flores.png");
+}
+.container__login--datos{
+    height: 720px;
+    width: 720px;
+}
+.container__login--texto{
+    text-align: center;
+    font: Bold 27px/44px Noteworthy;
+    letter-spacing: 0px;
+    color: #145F2B;
+    opacity: 1; 
+}
+.container__login--inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+.input{
+    outline: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: solid 2px gray;
+    margin: 20px 0px;
+    width: 400px;
+}
+.button{
+    width: 200px;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    background: linear-gradient(30deg,#91B508,#227B26);
+    margin: 50px;
+}
+.button:hover{
+    background: linear-gradient(30deg,#227B26,#91B508);
+}
+.login__redes--iconos{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.container__login--textos{
+    margin-left: 100px;
+}
+.login--texto{
+    font: Bold 27px/44px Noteworthy;
+    letter-spacing: 0px;
+    color: #145F2B;
+    opacity: 1;
+    margin: 0px;  
+}
+.container__login--textos p a{
+    color: #145F2B;
+    text-decoration: none;
+}
+.container__login--textos p a:hover{
+    text-decoration: underline;
+}
+

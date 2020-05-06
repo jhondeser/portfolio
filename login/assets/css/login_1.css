@@ -1,0 +1,105 @@
+body{
+   background: purple;
+}
+.login{
+   background: linear-gradient(purple,#3055A6);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+   padding: 0px 30px;
+   min-height: call(100vh - 200px);
+}
+.login_container{
+   background-color: rgba(255, 255, 255, 0.1);
+   border: solid 2px white;
+   border-radius: 40px;
+   color: white;
+   padding: 20px;
+   width: 300px;
+   min-height: 500px;
+}
+.login__container--form{
+   display: flex;
+   flex-direction: column; 
+}
+.login__container--form label{
+   font-size: 14px;
+}
+.login_container--remenber-me{
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+.login_container--remenber-me a{
+   color: white;
+   font-size: 14px;
+   text-decoration: none; 
+}
+.login_container--remenber-me a:hover{
+   text-decoration: underline; 
+}
+.div_1{
+   display: flex;
+   flex-direction: column;
+   font-size: 14px;
+   margin: 50px 0px;
+}
+.login_container--social-media--text{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.login_container--social-media div i{
+   margin: 10px 10px;
+}
+.login__container--register{
+   font-size: 14px; 
+}
+.login__container--register a{
+   font-size: 16px; 
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
+}
+.login__container--register a:hover{
+   text-decoration: underline;
+}
+.input{
+   background-color: transparent;
+   border-left: 0px;
+   border-top: 0px;
+   border-right: 0px;
+   border-bottom: solid 2px white;
+   font-size: 16px;
+   font-family: 'Muli', sans-serif;
+   margin-bottom: 20px;
+   padding: 0px 20px;
+   outline: none;
+   height: 50px;
+}
+::placeholder{
+   color: white;
+}
+.button{
+   background: rgba(255, 255, 255, 0.1);
+   border: none;
+   border-radius: 25px;
+   color: white;
+   height: 50px;
+   font-size: 16px;
+   margin: 10px 0px;
+}
+.button:hover{
+   background: rgba(255, 255, 255, 0.2);
+}
+@media only screen and (max-width: 600px){
+   .login_container{
+      background-color: transparent;
+      border: none;
+      padding: 0px;
+      width: 100%;
+   }
+}
+

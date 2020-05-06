@@ -1,0 +1,51 @@
+body{
+    background-color: darkviolet;
+}
+.header {
+    background-color: darkviolet;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+.header ul li{
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+.header ul li:hover{
+    background-color: darkmagenta;
+    transform: scale(1.2);
+}
+/*----------buscador*/
+.search_v2{
+    align-items: center;
+    background-color: violet;
+    border: solid 2px white;
+    color: white;
+    border-radius: 25px;
+    padding: 0 0 0 40px;
+}
+.search_input_v2{
+    background-color: violet;
+    padding: 1px 0px;
+    color:white;
+    border: none;
+    height: 35px;
+    width: 190px;
+}
+.button1_v2{
+    width: 50px;
+    height: 37px;
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+  }
+  ::placeholder{
+      color: white;
+  }

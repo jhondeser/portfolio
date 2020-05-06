@@ -1,0 +1,48 @@
+body{
+    background-color: darkviolet;
+}
+.header {
+    background-color: darkviolet;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+.header ul li{
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+.header ul li:hover{
+    background-color: darkmagenta;
+    transform: scale(1.2);
+}
+/*----------buscador*/
+.form1{
+    position: relative;
+  }
+  .fieldset1{
+    background: #fff;
+    border: 1px solid #808b96;
+    border-radius: 5px;
+    padding: 0 0 0 40px;
+    height: 35px;
+  }
+  .input1{
+    color: #666;
+    border: none;
+    height: 35px;
+    width: 190px;
+  }
+  .button1{
+    width: 50px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+  }
